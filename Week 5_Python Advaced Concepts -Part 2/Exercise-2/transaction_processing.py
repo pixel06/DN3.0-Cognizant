@@ -38,6 +38,5 @@ def main():
             cont = input("Do you want to process another transaction? (yes/no): ").strip().lower()
             if cont != 'yes':
                 break
-
 if __name__ == "__main__":
     main()
